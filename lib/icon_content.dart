@@ -1,3 +1,4 @@
+import 'package:bmi_app/constants.dart';
 import 'package:flutter/material.dart';
 
 class IconContent extends StatelessWidget {
@@ -17,7 +18,7 @@ class IconContent extends StatelessWidget {
       ),
       Text(
         text,
-        style: TextStyle(color: Colors.white, fontSize: 20),
+        style: klabelTextStyle,
       )
     ]);
   }
